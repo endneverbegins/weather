@@ -102,7 +102,7 @@ class WeatherApp(QWidget):
 
         # Put your NEW OpenWeather API key here.
         # Do not post your API key publicly.
-        api_key = "3532023faf645ec4de6962734c7bcb68"
+        api_key = "3532023faf645ec4de6962734c7bcb68" #larp larp sahur
 
         # Get the city entered by the user
         city = self.city_input.text().strip()
