@@ -63,6 +63,10 @@ class WeatherApp(QWidget):
 
         # Apply some styling to the application
         self.setStyleSheet("""
+            QWidget {
+            background-color: #FF69B4
+            } 
+
             QLabel, QPushButton {
                 font-family: Calibri;
             }
