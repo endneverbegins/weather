@@ -104,19 +104,13 @@ class WeatherApp(QWidget):
 
     def get_weather(self):
 
-        # Put your NEW OpenWeather API key here.
-        # Do not post your API key publicly.
-        api_key = "3532023faf645ec4de6962734c7bcb68" #larp larp sahur
-
-        # Get the city entered by the user
+        api_key = "3532023faf645ec4de6962734c7bcb68" 
         city = self.city_input.text().strip()
 
-        # Check if the user entered a city
         if not city:
             self.display_error("Please enter a city.")
             return
 
-        # OpenWeather API URL
         url = "https://api.openweathermap.org/data/2.5/weather"
 
         # Parameters sent to the API
